@@ -1,0 +1,27 @@
+$size-title: 2.5em
+
+@media screen and (min-width: 1000px)
+    body
+        main
+            header
+                display: flex
+                align-items: center
+                flex-direction: column
+                #title
+
+                    h1
+                        font-size: $size-title
+                    h2
+                        font-size: $size-title
+                p
+                    width: 41vw
+
+            article
+                flex-direction: row
+                flex-wrap: wrap
+                gap: 40px
+                        
+                section
+
+                    &:nth-child(odd)
+                        transform: translateY(50%)

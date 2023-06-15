@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 98%);
+}
+body main {
+  background-color: hsl(0, 0%, 98%);
+  padding: 70px 40px;
+}
+body main h1 {
+  color: hsl(234, 12%, 34%);
+}
+body main p {
+  color: hsl(229, 6%, 66%);
+}
+body main header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+body main header #title {
+  margin-bottom: 15px;
+}
+body main header #title h2 {
+  font-weight: 200;
+  font-size: 1.7em;
+}
+body main header #title h1 {
+  font-size: 1.7em;
+}
+body main header p {
+  font-size: 1.05em;
+}
+body main article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+body main article section {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  transition: transform 0.5s;
+  width: 350px;
+}
+body main article section:nth-child(1) {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+body main article section:nth-child(2) {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+body main article section:nth-child(3) {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+body main article section:nth-child(4) {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+body main article h1 {
+  font-size: 1.5em;
+}
+body main article p {
+  margin-bottom: 50px;
+  opacity: 80%;
+}
+body main article img {
+  display: block;
+  float: right;
+  width: 20%;
+}/*# sourceMappingURL=style.css.map */
